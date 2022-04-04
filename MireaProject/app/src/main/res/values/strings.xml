@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MireaProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="label_browser">WebView</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_browser">Browser</string>
+    <string name="label_player">Player</string>
+    <string name="menu_player">Player</string>
+    <string name="label_service">Service</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_histories">Histories</string>
+    <string name="label_dialog_histories">New history</string>
+    <string name="HistoryDialogFragmentAdd">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="login_activity">Firebase auth</string>
+    <string name="whois_https_label">WHOIS</string>
+    <string name="WhoIsDesc">Сначла через один API получаем публичный IP,
+        затем через другой API делаем WHOIS запрос на
+        полученный ранее IP.
+    </string>
+    <string name="label_maps">Maps</string>
+
+</resources>

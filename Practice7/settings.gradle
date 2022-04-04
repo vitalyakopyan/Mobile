@@ -1,0 +1,4 @@
+include ':firebase'
+include ':httpurlconnection'
+include ':Socket'
+rootProject.name = "Practice7"

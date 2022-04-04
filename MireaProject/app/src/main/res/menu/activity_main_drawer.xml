@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="@string/menu_calculator" />
+
+        <item
+            android:id="@+id/nav_browser"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/menu_browser" />
+
+        <item
+            android:id="@+id/nav_player"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/menu_player" />
+
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@android:drawable/ic_menu_slideshow"
+            android:title="@string/label_service" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/label_settings" />
+
+        <item
+            android:id="@+id/nav_histories"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/label_histories" />
+        <item
+            android:id="@+id/nav_https"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="@string/whois_https_label" />
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/label_maps" />
+    </group>
+</menu>

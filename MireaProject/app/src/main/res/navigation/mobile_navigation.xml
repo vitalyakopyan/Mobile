@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.msv.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="ru.mirea.msv.mireaproject.Calculator"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="ru.mirea.msv.mireaproject.Browser"
+        android:label="@string/label_browser"
+        tools:layout="@layout/fragment_browser" />
+    <fragment
+        android:id="@+id/nav_player"
+        android:name="ru.mirea.msv.mireaproject.Player"
+        android:label="@string/label_player"
+        tools:layout="@layout/fragment_player" />
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="ru.mirea.msv.mireaproject.Sensors"
+        android:label="@string/label_service"
+        tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="ru.mirea.msv.mireaproject.Settings"
+        android:label="@string/label_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_histories"
+        android:name="ru.mirea.msv.mireaproject.Histories"
+        android:label="@string/label_histories"
+        tools:layout="@layout/fragment_histories" />
+    <!--<fragment
+        android:id="@+id/dialog_histories_fragment"
+        android:name="ru.mirea.msv.mireaproject.HistoriesDialogFragment"
+        android:label="@string/label_dialog_histories"
+        tools:layout="@layout/dialog_histories_add" />-->
+    <fragment
+        android:id="@+id/nav_https"
+        android:name="ru.mirea.msv.mireaproject.WHOIS_HTTPS_QUERY"
+        android:label="@string/whois_https_label"
+        tools:layout="@layout/fragment_whois_https"/>
+
+    <fragment
+        android:id="@+id/nav_maps"
+        android:name="ru.mirea.msv.mireaproject.Maps"
+        android:label="@string/label_maps"
+        tools:layout="@layout/fragment_maps"/>
+
+    <fragment
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</navigation>
